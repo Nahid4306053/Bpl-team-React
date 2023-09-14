@@ -1,0 +1,25 @@
+/* Hide the scrollbar track */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+body{
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Shere_Bangla_National_Stadium.jpg/800px-Shere_Bangla_National_Stadium.jpg),#ffffff33 ;
+  min-height: 100vh;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  padding-bottom: 80px;
+}
+/* Style the scrollbar thumb */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #0000004e;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px; 
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+  
+/* Style the scrollbar track */
+
